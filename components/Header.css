@@ -1,0 +1,180 @@
+/* *{
+    padding: 0;
+    margin: 0;
+}
+.head{
+    background-color: darkgray;
+    
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+.h2{
+    display: flex;
+    gap: 20px;
+    padding: 15px;
+    color:darkgreen;
+}
+#one{
+    height: 50px;;
+    width: 100px;
+    border-radius: 7px;
+}
+a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: large;
+}
+
+
+.table-container {
+    margin: 20px auto;
+    width: 80%;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    padding: 8px;
+    border: 1px solid;
+    text-align: left;
+}
+
+.table th {
+    background-color: #f2f2f2;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #9537a5;
+    color: white;
+}
+.table tbody tr:nth-child(odd) {
+    background-color: #e4f7b1;
+}
+
+
+.form-container {
+    margin-top: 20px;
+}
+
+.form-container input {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.form-container button {
+    padding: 8px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #45a049;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+/* App.css */
+
+.App {
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    color: #2c3e50;
+  }
+  
+  form {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  input[type="text"], input[type="number"] {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  input[type="text"]::placeholder, input[type="number"]::placeholder {
+    color: #aaa;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  th, td {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  tr:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .income {
+    color: #27ae60;
+  }
+  
+  .expense {
+    color: #e74c3c;
+  }
+  
+  .summary {
+    margin-bottom: 20px;
+  }
+  
+  .summary p {
+    margin: 5px;
+    font-size: 18px;
+  }
+  #cb{
+    color:coral;
+  }
+  
